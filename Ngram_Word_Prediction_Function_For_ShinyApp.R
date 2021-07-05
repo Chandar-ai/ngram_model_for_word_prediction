@@ -29,9 +29,9 @@ library(dplyr)
 
 # Load Training Data, which alread created 
 
-n2_words <- readRDS("./ngram_model_for_word_prediction/ngram_app_data//two_words_fast.rds")
-n3_words  <- readRDS("./ngram_model_for_word_prediction/ngram_app_data//three_words_fast.rds")
-n4_words <- readRDS("./ngram_model_for_word_prediction/ngram_app_data//four_words_fast.rds")
+n2_words <- readRDS("https://github.com/Chandar-ai/ngram_model_for_word_prediction/tree/main/ngram_app_data/two_words_fast.rds")
+n3_words  <- readRDS("https://github.com/Chandar-ai/ngram_model_for_word_prediction/tree/main/ngram_app_data/three_words_fast.rds")
+n4_words <- readRDS("https://github.com/Chandar-ai/ngram_model_for_word_prediction/tree/main/ngram_app_data/four_words_fast.rds")
 
 
 # Creation of Ngram Matching Functions
